@@ -104,4 +104,3 @@ Formatting: The entire codebase has been formatted using dart format ..
 ### Collaboration and Contributions
 
 Detailed records of group members, their roles, and specific contributions are maintained in the separate [CONTRIBUTORS.md](CONTRIBUTORS.md) file.
-

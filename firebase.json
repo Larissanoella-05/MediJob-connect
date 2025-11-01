@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "medijobconnects",
+          "appId": "1:48293103898:android:db944bcc68e22ee4fd04a3",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "medijobconnects",
+          "configurations": {
+            "android": "1:48293103898:android:db944bcc68e22ee4fd04a3",
+            "ios": "1:48293103898:ios:d9241afae86f527dfd04a3",
+            "macos": "1:48293103898:ios:d9241afae86f527dfd04a3",
+            "web": "1:48293103898:web:9b3b0756db1e61c1fd04a3",
+            "windows": "1:48293103898:web:e7332b28749d7930fd04a3"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
