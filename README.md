@@ -54,7 +54,7 @@ Follow these steps to get the Medijobs Connect mobile application running on you
 ### 1. Cloning the Repository
 
 ```bash
-git clone [FILL IN YOUR PUBLIC GITHUB URL HERE]
+git clone https://github.com/Larissanoella-05/MediJob-connect.git
 cd medijobs_connect
 ```
 
