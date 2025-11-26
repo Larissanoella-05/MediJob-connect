@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "540058534324",
+    "project_id": "medijob-connect",
+    "storage_bucket": "medijob-connect.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540058534324:android:f64aeb960d89a11d9bb2e1",
+        "android_client_info": {
+          "package_name": "com.example.medijob_connect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540058534324-9fj1hf5pdmasac0kl27s4eighdo4a5e6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medijob_connect",
+            "certificate_hash": "1d9848ab4683de9e3aa86a3f744d4759dfbbec99"
+          }
+        },
+        {
+          "client_id": "540058534324-0cqsbqd05da4fovlnulpv650paq9epni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8pAKYB5fMtQJ41sGVBuxCbStOA1hPGAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540058534324-0cqsbqd05da4fovlnulpv650paq9epni.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "540058534324-ub03fg1b75shfodtr1nh2opugapd81o5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.medijobConnect"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
