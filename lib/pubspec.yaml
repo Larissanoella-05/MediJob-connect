@@ -1,0 +1,44 @@
+name: medijob_connect
+description: Healthcare job platform connecting African youth to medical jobs and courses
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management & architecture
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.5
+  get_it: ^9.1.0
+
+  # Firebase Core Plugins (Updated to latest compatible major versions)
+  # These versions are highly likely to resolve correctly.
+  firebase_core: ^4.2.1        # Updated to the latest stable release in this block.
+  firebase_auth: ^6.1.2        # Updated to the latest stable release.
+  cloud_firestore: ^6.1.0      # Updated to the latest stable release (v6.1.0).
+  google_sign_in: ^7.2.0       # Adjusted to a stable version near the current Firebase set.
+
+  # Utilities
+  shared_preferences: ^2.2.2
+  fluttertoast: ^9.0.0
+  cupertino_icons: ^1.0.6
+  form_field_validator: ^1.1.0
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  bloc_test: ^10.0.0
+  mockito: ^5.6.1
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
